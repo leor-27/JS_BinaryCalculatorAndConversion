@@ -32,10 +32,10 @@ function convertBinaryFunction(a) {
     const DECIMAL_VALUE = parseInt(a, 2);
     console.log(a + " in Decimal: " + DECIMAL_VALUE);
 
-    const OCTAL_VALUE = decimalValue.toString(8);
+    const OCTAL_VALUE = DECIMAL_VALUE.toString(8);
     console.log(a + " in Octal: " + OCTAL_VALUE);
 
-    const HEXADECIMAL_VALUE = decimalValue.toString(16);
+    const HEXADECIMAL_VALUE = DECIMAL_VALUE.toString(16);
     console.log(a + " in Hexadecimal: " + HEXADECIMAL_VALUE.toUpperCase());
 }
 
