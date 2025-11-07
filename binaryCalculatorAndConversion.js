@@ -27,7 +27,7 @@ if (difference >= 0) {
 }
 
 let binaryNumber = prompt("Enter a binary value you'd want to convert in Octal, Decimal, and Hexadecimal values:")
-let convertedNumber = convertBinaryFunction(binaryNumber);
+convertBinaryFunction(binaryNumber);
 function convertBinaryFunction(a) {
     const decimalValue = parseInt(a, 2);
     console.log(a + " in Decimal: " + decimalValue);
