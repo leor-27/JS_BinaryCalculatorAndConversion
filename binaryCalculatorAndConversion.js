@@ -3,8 +3,8 @@ let firstValueSum = prompt("Enter the first binary value to add:");
 let secondValueSum = prompt("Enter the second binary value to add:");
 let sum = addBinaryFunction(firstValueSum, secondValueSum);
 function addBinaryFunction(a, b) {
-    firstAddend = parseInt(a, 2)
-    secondAddend = parseInt(b, 2)
+    const firstAddend = parseInt(a, 2)
+    const secondAddend = parseInt(b, 2)
     return firstAddend + secondAddend;
 }
 const binarySum = sum.toString(2);
@@ -14,8 +14,8 @@ let firstValueDifference = prompt("Enter the first binary value to subtract:");
 let secondValueDifference = prompt("Enter the second binary value to subtract:");
 let difference = subtractBinaryFunction(firstValueDifference, secondValueDifference);
 function subtractBinaryFunction(a, b) {
-    minuend = parseInt(a, 2)
-    subtrahend = parseInt(b, 2)
+    const minuend = parseInt(a, 2)
+    const subtrahend = parseInt(b, 2)
     return minuend - subtrahend;
 }
 
